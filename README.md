@@ -1,9 +1,8 @@
-# Warashi's Homebrew Formulae
+# Warashi's Homebrew Tap
 
-To use Formulae in this repository, use command below.
+To use Formulas/Casks in this repository, use command below.
 ```sh
-$ brew tap Warashi/formulae
+$ brew tap Warashi/tap
 ```
 
-There is one formula.
-- emacs-inlinepatched
+There is no formula yet.
