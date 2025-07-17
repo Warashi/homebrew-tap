@@ -2,7 +2,7 @@
 cask "cage" do
   desc ""
   homepage ""
-  version "0.1.5"
+  version "0.1.6"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,31 +12,31 @@ cask "cage" do
 
   on_macos do
     on_intel do
-      url "https://github.com/Warashi/cage/releases/download/v0.1.5/cage_Darwin_x86_64.tar.gz",
+      url "https://github.com/Warashi/cage/releases/download/v0.1.6/cage_Darwin_x86_64.tar.gz",
         verified: "github.com/Warashi/cage/",
         using: :homebrew_curl
-      sha256 "cb0e506ef49ec42509387142c58069c74c75e62749c52399dcbdde01ef4059b8"
+      sha256 "297f8e35ff54c56eb90c5148545af00adaf07b1e55d82af89e983807e8f8ffac"
     end
     on_arm do
-      url "https://github.com/Warashi/cage/releases/download/v0.1.5/cage_Darwin_arm64.tar.gz",
+      url "https://github.com/Warashi/cage/releases/download/v0.1.6/cage_Darwin_arm64.tar.gz",
         verified: "github.com/Warashi/cage/",
         using: :homebrew_curl
-      sha256 "669a3e67afcca7658a0df2ab4a8ecfe505567dee8c0ff0c17bf6c88a3bf0949c"
+      sha256 "2ff65cea165d8fe85d481e981f166cc6020f9dca2db47cf0b23a930d7531900c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Warashi/cage/releases/download/v0.1.5/cage_Linux_x86_64.tar.gz",
+      url "https://github.com/Warashi/cage/releases/download/v0.1.6/cage_Linux_x86_64.tar.gz",
         verified: "github.com/Warashi/cage/",
         using: :homebrew_curl
-      sha256 "c1d16b7ad62840af4353d8b964fec48d069b6e5ec01dbcd1d8d4e93c165ffdd8"
+      sha256 "f08191937821c230b4c9fe9e8e21938e00f26c55c4f251b700df4e0f3c66db63"
     end
     on_arm do
-      url "https://github.com/Warashi/cage/releases/download/v0.1.5/cage_Linux_arm64.tar.gz",
+      url "https://github.com/Warashi/cage/releases/download/v0.1.6/cage_Linux_arm64.tar.gz",
         verified: "github.com/Warashi/cage/",
         using: :homebrew_curl
-      sha256 "4ca905df4b510ba6183304f617db6108611d63dc0f12ffd39e9c4245894fecdb"
+      sha256 "5078810a581e605b7eff0b5303182f77b8528864d53b9cb9054787db9f8c797a"
     end
   end
 
