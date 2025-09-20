@@ -2,7 +2,7 @@
 cask "cage" do
   desc ""
   homepage ""
-  version "0.1.9"
+  version "0.1.10"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,31 +12,31 @@ cask "cage" do
 
   on_macos do
     on_intel do
-      url "https://github.com/Warashi/cage/releases/download/v0.1.9/cage_Darwin_x86_64.tar.gz",
+      url "https://github.com/Warashi/cage/releases/download/v0.1.10/cage_Darwin_x86_64.tar.gz",
         verified: "github.com/Warashi/cage/",
         using: :homebrew_curl
-      sha256 "6a3c1912113464b64b5822730ed63e74f3218b0851ee02d5ee1673144e5a90c5"
+      sha256 "4459afe9eeeae07e6dd7e4624a4d5f2de0b51c24d3e9fc9793571ff49d36834e"
     end
     on_arm do
-      url "https://github.com/Warashi/cage/releases/download/v0.1.9/cage_Darwin_arm64.tar.gz",
+      url "https://github.com/Warashi/cage/releases/download/v0.1.10/cage_Darwin_arm64.tar.gz",
         verified: "github.com/Warashi/cage/",
         using: :homebrew_curl
-      sha256 "771e5e21e8931bd6d11a16798fc29341c2c1ba898c464055181380a1e2ec3462"
+      sha256 "e80f9701bbd41debc2bd834e2294533353e25ed48b3bcad2d8febb78c545085d"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Warashi/cage/releases/download/v0.1.9/cage_Linux_x86_64.tar.gz",
+      url "https://github.com/Warashi/cage/releases/download/v0.1.10/cage_Linux_x86_64.tar.gz",
         verified: "github.com/Warashi/cage/",
         using: :homebrew_curl
-      sha256 "8667e2ed768847986a5014924d3a2e724cc488c19d1baa4b94e31a693cdd9357"
+      sha256 "9a8c19d17ce4ad64ffad9adbebcab798dcc312bbd7c31ebe7ebc380ae5f4348e"
     end
     on_arm do
-      url "https://github.com/Warashi/cage/releases/download/v0.1.9/cage_Linux_arm64.tar.gz",
+      url "https://github.com/Warashi/cage/releases/download/v0.1.10/cage_Linux_arm64.tar.gz",
         verified: "github.com/Warashi/cage/",
         using: :homebrew_curl
-      sha256 "512b25426e4f3fc41fb5c9ecef40250f3f4cf1c04eb6df1c78ea027268464301"
+      sha256 "0b664640ac2da9ca56a56e82249e727f5a9916e29e4b4e3dd8eb6d896fa33774"
     end
   end
 
