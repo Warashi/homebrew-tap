@@ -2,7 +2,7 @@
 cask "cage" do
   desc ""
   homepage ""
-  version "0.1.10"
+  version "0.1.11"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,31 +12,31 @@ cask "cage" do
 
   on_macos do
     on_intel do
-      url "https://github.com/Warashi/cage/releases/download/v0.1.10/cage_Darwin_x86_64.tar.gz",
+      url "https://github.com/Warashi/cage/releases/download/v0.1.11/cage_Darwin_x86_64.tar.gz",
         verified: "github.com/Warashi/cage/",
         using: :homebrew_curl
-      sha256 "4459afe9eeeae07e6dd7e4624a4d5f2de0b51c24d3e9fc9793571ff49d36834e"
+      sha256 "dafc19d1f25c1763bc30c5f9d0c4a48b7282c083aa6c368dc2710e4f2bbe6cd9"
     end
     on_arm do
-      url "https://github.com/Warashi/cage/releases/download/v0.1.10/cage_Darwin_arm64.tar.gz",
+      url "https://github.com/Warashi/cage/releases/download/v0.1.11/cage_Darwin_arm64.tar.gz",
         verified: "github.com/Warashi/cage/",
         using: :homebrew_curl
-      sha256 "e80f9701bbd41debc2bd834e2294533353e25ed48b3bcad2d8febb78c545085d"
+      sha256 "49a0b6961d327d00357bcbd1892a21d5f036cc17c4bc2c997225ed7be54643c2"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Warashi/cage/releases/download/v0.1.10/cage_Linux_x86_64.tar.gz",
+      url "https://github.com/Warashi/cage/releases/download/v0.1.11/cage_Linux_x86_64.tar.gz",
         verified: "github.com/Warashi/cage/",
         using: :homebrew_curl
-      sha256 "9a8c19d17ce4ad64ffad9adbebcab798dcc312bbd7c31ebe7ebc380ae5f4348e"
+      sha256 "649d70ba7dbad4afa4804462e49b417a81e514322a53b70f3706cc6a1677558a"
     end
     on_arm do
-      url "https://github.com/Warashi/cage/releases/download/v0.1.10/cage_Linux_arm64.tar.gz",
+      url "https://github.com/Warashi/cage/releases/download/v0.1.11/cage_Linux_arm64.tar.gz",
         verified: "github.com/Warashi/cage/",
         using: :homebrew_curl
-      sha256 "0b664640ac2da9ca56a56e82249e727f5a9916e29e4b4e3dd8eb6d896fa33774"
+      sha256 "e9b91441a0eeb5f56bc1a72e6d96512028fa26caa7c633ed5f1266904a8995fd"
     end
   end
 
