@@ -2,7 +2,7 @@
 cask "cage" do
   desc ""
   homepage ""
-  version "0.1.11"
+  version "0.1.12"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,31 +12,31 @@ cask "cage" do
 
   on_macos do
     on_intel do
-      url "https://github.com/Warashi/cage/releases/download/v0.1.11/cage_Darwin_x86_64.tar.gz",
+      url "https://github.com/Warashi/cage/releases/download/v0.1.12/cage_Darwin_x86_64.tar.gz",
         verified: "github.com/Warashi/cage/",
         using: :homebrew_curl
-      sha256 "dafc19d1f25c1763bc30c5f9d0c4a48b7282c083aa6c368dc2710e4f2bbe6cd9"
+      sha256 "830f780a5c7efe51bfe106f408a67b0d8e72354cc0ee43ab44f7730779b783ba"
     end
     on_arm do
-      url "https://github.com/Warashi/cage/releases/download/v0.1.11/cage_Darwin_arm64.tar.gz",
+      url "https://github.com/Warashi/cage/releases/download/v0.1.12/cage_Darwin_arm64.tar.gz",
         verified: "github.com/Warashi/cage/",
         using: :homebrew_curl
-      sha256 "49a0b6961d327d00357bcbd1892a21d5f036cc17c4bc2c997225ed7be54643c2"
+      sha256 "21deee704c1bb7fa81bae29b3adad7e8c765b0d49946386f4d0f564b84ccfbeb"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Warashi/cage/releases/download/v0.1.11/cage_Linux_x86_64.tar.gz",
+      url "https://github.com/Warashi/cage/releases/download/v0.1.12/cage_Linux_x86_64.tar.gz",
         verified: "github.com/Warashi/cage/",
         using: :homebrew_curl
-      sha256 "649d70ba7dbad4afa4804462e49b417a81e514322a53b70f3706cc6a1677558a"
+      sha256 "3b09058b8bfcc22e2070f795a4395ee4461af8e21617cf5f45e924f9977435ac"
     end
     on_arm do
-      url "https://github.com/Warashi/cage/releases/download/v0.1.11/cage_Linux_arm64.tar.gz",
+      url "https://github.com/Warashi/cage/releases/download/v0.1.12/cage_Linux_arm64.tar.gz",
         verified: "github.com/Warashi/cage/",
         using: :homebrew_curl
-      sha256 "e9b91441a0eeb5f56bc1a72e6d96512028fa26caa7c633ed5f1266904a8995fd"
+      sha256 "d20a16b8d3973ec40b4c9d231eb7718d435b64cbcfd5ca65e146cdabf6697f3f"
     end
   end
 
