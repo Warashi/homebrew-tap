@@ -2,7 +2,7 @@
 cask "cage" do
   desc ""
   homepage ""
-  version "0.1.12"
+  version "0.1.13"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,31 +12,31 @@ cask "cage" do
 
   on_macos do
     on_intel do
-      url "https://github.com/Warashi/cage/releases/download/v0.1.12/cage_Darwin_x86_64.tar.gz",
+      url "https://github.com/Warashi/cage/releases/download/v0.1.13/cage_Darwin_x86_64.tar.gz",
         verified: "github.com/Warashi/cage/",
         using: :homebrew_curl
-      sha256 "830f780a5c7efe51bfe106f408a67b0d8e72354cc0ee43ab44f7730779b783ba"
+      sha256 "2604a0f770fef52e951f416ddc351afd138643b51244faa2f5a4869d105d63dc"
     end
     on_arm do
-      url "https://github.com/Warashi/cage/releases/download/v0.1.12/cage_Darwin_arm64.tar.gz",
+      url "https://github.com/Warashi/cage/releases/download/v0.1.13/cage_Darwin_arm64.tar.gz",
         verified: "github.com/Warashi/cage/",
         using: :homebrew_curl
-      sha256 "21deee704c1bb7fa81bae29b3adad7e8c765b0d49946386f4d0f564b84ccfbeb"
+      sha256 "29ccee40b34bb4013700e03b21882914f2625e81749dcd0dc3deec408cbac477"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Warashi/cage/releases/download/v0.1.12/cage_Linux_x86_64.tar.gz",
+      url "https://github.com/Warashi/cage/releases/download/v0.1.13/cage_Linux_x86_64.tar.gz",
         verified: "github.com/Warashi/cage/",
         using: :homebrew_curl
-      sha256 "3b09058b8bfcc22e2070f795a4395ee4461af8e21617cf5f45e924f9977435ac"
+      sha256 "aac26d76d862dab3dfb9e1ad9130ca898242e44d121f4ed1b44ded1d91a7225a"
     end
     on_arm do
-      url "https://github.com/Warashi/cage/releases/download/v0.1.12/cage_Linux_arm64.tar.gz",
+      url "https://github.com/Warashi/cage/releases/download/v0.1.13/cage_Linux_arm64.tar.gz",
         verified: "github.com/Warashi/cage/",
         using: :homebrew_curl
-      sha256 "d20a16b8d3973ec40b4c9d231eb7718d435b64cbcfd5ca65e146cdabf6697f3f"
+      sha256 "797fa3cb365cb40502c751bdd9932baa35441ec1db68a5289bcc05c19e6aa28d"
     end
   end
 
