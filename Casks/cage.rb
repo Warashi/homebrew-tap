@@ -2,7 +2,7 @@
 cask "cage" do
   desc ""
   homepage ""
-  version "0.1.13"
+  version "0.1.14"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,31 +12,27 @@ cask "cage" do
 
   on_macos do
     on_intel do
-      url "https://github.com/Warashi/cage/releases/download/v0.1.13/cage_Darwin_x86_64.tar.gz",
-        verified: "github.com/Warashi/cage/",
+      url "https://github.com/Warashi/cage/releases/download/v0.1.14/cage_Darwin_x86_64.tar.gz",
         using: :homebrew_curl
-      sha256 "2604a0f770fef52e951f416ddc351afd138643b51244faa2f5a4869d105d63dc"
+      sha256 "70da7087025b388bb70289fab93b0479ce85facef09acd4096aa75ee46347b6a"
     end
     on_arm do
-      url "https://github.com/Warashi/cage/releases/download/v0.1.13/cage_Darwin_arm64.tar.gz",
-        verified: "github.com/Warashi/cage/",
+      url "https://github.com/Warashi/cage/releases/download/v0.1.14/cage_Darwin_arm64.tar.gz",
         using: :homebrew_curl
-      sha256 "29ccee40b34bb4013700e03b21882914f2625e81749dcd0dc3deec408cbac477"
+      sha256 "0e6f9c27f1d739968e7b3942991a1cb513ce323b870b5c62bad9d22014dbe953"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Warashi/cage/releases/download/v0.1.13/cage_Linux_x86_64.tar.gz",
-        verified: "github.com/Warashi/cage/",
+      url "https://github.com/Warashi/cage/releases/download/v0.1.14/cage_Linux_x86_64.tar.gz",
         using: :homebrew_curl
-      sha256 "aac26d76d862dab3dfb9e1ad9130ca898242e44d121f4ed1b44ded1d91a7225a"
+      sha256 "9106a24743bd7d9c631c37d0041bcb181fd80aaf2e2834530cc59386aeb4df26"
     end
     on_arm do
-      url "https://github.com/Warashi/cage/releases/download/v0.1.13/cage_Linux_arm64.tar.gz",
-        verified: "github.com/Warashi/cage/",
+      url "https://github.com/Warashi/cage/releases/download/v0.1.14/cage_Linux_arm64.tar.gz",
         using: :homebrew_curl
-      sha256 "797fa3cb365cb40502c751bdd9932baa35441ec1db68a5289bcc05c19e6aa28d"
+      sha256 "6b7385af2ba2dc09c16d5fc2328b826c8ba3ba7a15c3820fa15085dc02b14778"
     end
   end
 
